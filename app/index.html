@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arunika — Portal Statistik Indonesia</title>
+<meta name="description" content="Arunika — portal statistik Indonesia: angka resmi penduduk, ekonomi, harga, tenaga kerja, dan sosial dari BPS, lengkap dengan sumber dan tahun.">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">◐</span>
+      <span class="brand-text"><strong>Arunika</strong><span>Portal Statistik Indonesia</span></span>
+    </a>
+    <div class="search-box">
+      <label class="visually-hidden" for="search-input">Cari indikator atau halaman</label>
+      <input id="search-input" type="search" placeholder="Cari: inflasi, provinsi, IPM…" autocomplete="off">
+      <ul id="search-results" class="search-results" hidden></ul>
+    </div>
+    <nav aria-label="Bagian portal">
+      <ul id="nav-list" class="nav-list"></ul>
+    </nav>
+    <p class="sidebar-note">Angka resmi dari Badan Pusat Statistik (BPS), 2019–2024. Arunika adalah portal independen, bukan situs resmi BPS.</p>
+  </aside>
+  <div class="content">
+    <main id="app" tabindex="-1"></main>
+    <footer>
+      <p><strong>Arunika</strong> — Angka resmi Indonesia, dijelajahi. Seluruh angka dikutip dengan sumber dan tahunnya.</p>
+      <p>Sumber data: Badan Pusat Statistik (BPS), BPS/Sakernas, dan World Bank. Portal independen; bukan situs resmi BPS.</p>
+    </footer>
+  </div>
+</div>
+</body>
+</html>
